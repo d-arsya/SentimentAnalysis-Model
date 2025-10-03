@@ -1,0 +1,8 @@
+services:
+  backend:
+    image: disyfa/ppd-model
+    build: .
+    container_name: ppd-model
+    ports:
+      - "3000:8000"
+    restart: always
